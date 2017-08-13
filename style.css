@@ -1,3 +1,4 @@
+
 .vertical-align {
   display: flex;
   flex-direction: row;
@@ -7,7 +8,7 @@
 .vertical-align > [class*=" col-"] {
   display: flex;
   align-items: center;
-  //justify-content: center; /* Optional, to align inner items 
+  /*justify-content: center; *//* Optional, to align inner items 
                               horizontally inside the column */
 }
 
@@ -17,10 +18,10 @@
  *  - Which is also a flex-item - take up all the horizontal space
  *  available space inside the flex container (.col-* elements)
  */
+
 .vertical-align > [class^="col-"] > div,
 .vertical-align > [class*=" col-"] > div {
   /* flex: 1; */
   flex-grow: 1;
 }
-
 
